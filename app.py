@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 # Set page configuration
 st.set_page_config(
-    page_title="LungCancerNet",
+    page_title="CancerNet",
     page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -543,7 +543,7 @@ def apply_gradcam_overlay(image, cam, alpha=0.5):
 
 # ==================== SIDEBAR NAVIGATION ====================
 with st.sidebar:
-    st.title("🔬 LungCancerNet")
+    st.title("🔬 CancerNet")
     st.markdown("---")
     
     page = st.radio(
@@ -556,7 +556,7 @@ with st.sidebar:
 if page == "Home":
     st.markdown("""
         <div class="header-container">
-            <h1>LungCancerNet</h1>
+            <h1>CancerNet</h1>
             <p>Precise lung and colon cancer histopathological image analysis powered by deep learning</p>
         
         </div>
@@ -608,7 +608,7 @@ if page == "Home":
     # Footer
     st.markdown("""
         <div class="footer">
-            <p>© 2025, LungCancerNet v1.0</p>
+            <p>© 2025, CancerNet v1.0</p>
             <p>Advanced Histopathological Image Intelligence</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>
         </div>
@@ -800,7 +800,7 @@ sample_images/
     
     st.markdown("""
         <div class="footer">
-            <p>© 2025 ,LungCancerNet v1.0</p>
+            <p>© 2025 ,CancerNet v1.0</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -808,7 +808,7 @@ sample_images/
 elif page == "How to Use":
     st.markdown("""
         <div class="header-container">
-            <h1>📖 How to Use LungCancerNet</h1>
+            <h1>📖 How to Use CancerNet</h1>
             <p>Step-by-step guide to using the cancer classification system</p>
         </div>
     """, unsafe_allow_html=True)
@@ -894,7 +894,7 @@ elif page == "How to Use":
     
     st.markdown("""
         <div class="footer">
-            <p>© 2025 LungCancerNet v1.0</p>
+            <p>© 2025 CancerNet v1.0</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>
         </div>
     """, unsafe_allow_html=True)
@@ -912,7 +912,7 @@ elif page == "Privacy Policy":
     st.markdown("""
         <div class="feature-card">
             <h3>🎯 Intended Use</h3>
-            <p>LungCancerNet is designed for <strong>research and educational purposes</strong> to assist in image-based histopathological analysis. It is <strong>not a substitute for professional medical judgment</strong>. It is still under development and is not yet ready for clinical use. A rigorous validation process is ongoing to ensure the accuracy and reliability of the model.</p>
+            <p>CancerNet is designed for <strong>research and educational purposes</strong> to assist in image-based histopathological analysis. It is <strong>not a substitute for professional medical judgment</strong>. It is still under development and is not yet ready for clinical use. A rigorous validation process is ongoing to ensure the accuracy and reliability of the model.</p>
         </div>
     """, unsafe_allow_html=True)
     
@@ -1008,7 +1008,7 @@ elif page == "Privacy Policy":
     st.markdown("""
         <div class="footer">
             <p><strong>© 2025 Advanced ML Research Team</strong></p>
-            <p>LungCancerNet v1.0 | Advanced Histopathological Image Classification</p>
+            <p>CancerNet v1.0 | Advanced Histopathological Image Classification</p>
             <p>Last Updated: November 2025</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>
         </div>

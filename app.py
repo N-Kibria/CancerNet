@@ -608,8 +608,8 @@ if page == "Home":
     # Footer
     st.markdown("""
         <div class="footer">
-            <p>© 2025, CancerNet v1.0</p>
-            <p>Advanced Histopathological Image Intelligence</p>
+            <p>© 2025, CancerNet v1.0, Research Led by Dr. Amith khandakar</p>
+            <p>Advanced Histopathological Image Classification</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>
         </div>
     """, unsafe_allow_html=True)
@@ -800,7 +800,7 @@ sample_images/
     
     st.markdown("""
         <div class="footer">
-            <p>© 2025 ,CancerNet v1.0</p>
+            <p>© 2025 ,CancerNet v1.0, Research Led by Dr. Amith Khandakar</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -815,13 +815,13 @@ elif page == "How to Use":
     
     st.markdown("""
         <div class="feature-card">
-            <h3>🎥 Video Tutorial (Placeholder)</h3>
+            <h3>🎥 Video Tutorial</h3>
             <p>Watch this short video to understand the complete workflow:</p>
         </div>
     """, unsafe_allow_html=True)
     
     # Placeholder for video
-    st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # Replace with actual video URL
+    st.video("https://youtu.be/UPiA_pBv2BI")  # Replace with actual video URL
     
     st.markdown("---")
     
@@ -894,7 +894,7 @@ elif page == "How to Use":
     
     st.markdown("""
         <div class="footer">
-            <p>© 2025 CancerNet v1.0</p>
+            <p>© 2025, CancerNet v1.0, Research Led by Dr. Amith Khandakar</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>
         </div>
     """, unsafe_allow_html=True)
@@ -1007,7 +1007,7 @@ elif page == "Privacy Policy":
     # Footer
     st.markdown("""
         <div class="footer">
-            <p><strong>© 2025 Advanced ML Research Team</strong></p>
+            <p><strong>© 2025 | Research Led by Dr. Amith Khandakar</strong></p>
             <p>CancerNet v1.0 | Advanced Histopathological Image Classification</p>
             <p>Last Updated: November 2025</p>
             <p>Contact: nafisa21@iut-dhaka.edu</p>

@@ -558,6 +558,7 @@ if page == "Home":
         <div class="header-container">
             <h1>PEFT-CancerX</h1>
             <p>Precise lung and colon cancer histopathological image analysis powered by deep learning</p>
+            <p>A Research Led by Dr. Amith khandakar</p>
         
         </div>
     """, unsafe_allow_html=True)
@@ -821,7 +822,7 @@ elif page == "How to Use":
     """, unsafe_allow_html=True)
     
     # Placeholder for video
-    st.video("https://youtu.be/UPiA_pBv2BI")  # Replace with actual video URL
+    st.video("https://youtu.be/RCRis_ZNhbE")  # Replace with actual video URL
     
     st.markdown("---")
     
